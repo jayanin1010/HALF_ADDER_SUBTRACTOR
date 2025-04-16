@@ -55,14 +55,14 @@ Figure -02 HALF Subtractor
 Developed by: Jayani N
 RegisterNumber: 212224100025
 */
-     module de(a,b,sum_a,carry_a,diff_s,borr_s);
-     input a,b;
-     output sum_a,carry_a,diff_s,borr_s;
-     assign sum_a=a^b;
-     assign carry_a= a&b;
-     assign diff_s=a^b;
-     assign borr_s=(~a&b);
-     endmodule
+            module de(a,b,sum_a,carry_a,diff_s,borr_s);
+            input a,b;
+            output sum_a,carry_a,diff_s,borr_s;
+            assign sum_a=a^b;
+            assign carry_a= a&b;
+            assign diff_s=a^b;
+            assign borr_s=(~a&b);
+            endmodule
 
 
 **RTL Schematic**
